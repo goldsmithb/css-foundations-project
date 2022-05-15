@@ -37,13 +37,19 @@ body {
 
 .intro {
     display: flex;
+    align-items: center;
     background-color: gray;
 }
 
 .intro .flex-item {
-    flex: 1;
-    height: auto;
+    flex: 1 1 auto;
+    width: 100%;
     color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro img {
 }
 
 .normal-text {
