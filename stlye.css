@@ -55,6 +55,10 @@ body {
     color: white;
 }
 
+div.flex-item {
+    padding: 20px 0;
+}
+
 
 
 .normal-text {
