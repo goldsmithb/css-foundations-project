@@ -32,13 +32,22 @@ body {
     width: 100vw;
     padding: 0 15vw;
     margin: 0 auto;
-
-   /* background-color: gray;*/
     border: 2px solid rgb(87, 4, 241);
 }
 
 .intro {
     display: flex;
+    background-color: gray;
+}
+
+.intro .flex-item {
+    flex: 1;
+    height: auto;
+    color: white;
+}
+
+.normal-text {
+    color: rgba(223, 223, 223, 0.979);
 }
 
 header {
