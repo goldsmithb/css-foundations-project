@@ -24,10 +24,10 @@ body {
     border: 3px solid red;
 }
 
-.intro,
-.info,
-.quote,
-.sign-in {
+#intro,
+#info,
+#quote,
+#sign-in {
     flex: 1;
     width: 100vw;
     height: 300px;
@@ -36,13 +36,13 @@ body {
     border: 2px solid rgb(87, 4, 241);
 }
 
-.intro {
+#intro {
     display: flex;
     align-items: center;
     background-color: gray;
 }
 
-.intro .flex-item {
+#intro .flex-item {
     flex: 1 1 auto;
     color: white;
     justify-content: center;
