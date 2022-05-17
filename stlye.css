@@ -43,7 +43,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: gray;
+    background-color: #1f2937;
 }
 
 #intro .flex-item {
@@ -61,6 +61,7 @@ div.flex-item {
     margin: 0;
     font-size: 48px;
     font-weight: 900;
+    line-height: .9;
     color: #f9faf8;
 }
 
