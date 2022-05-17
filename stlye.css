@@ -54,15 +54,20 @@ body {
     color: white;
 }
 
-div.flex-item {
+div.flex-item {         /* does this always apply? */
     padding: 20px 0;
 }
+
 #intro h2 {
     margin: 0;
     font-size: 48px;
     font-weight: 900;
     line-height: .9;
     color: #f9faf8;
+}
+
+#info h2 {
+    margin: 0 auto;
 }
 
 
@@ -81,7 +86,6 @@ header {
     background-color: #1f2937;
     color: white;
 }
-
 
 header ul {
     padding: 0;
