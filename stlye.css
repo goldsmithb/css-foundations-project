@@ -90,3 +90,12 @@ header ul {
     justify-content: flex-end;
     gap: 8px;
 }
+
+.card-container {
+    display: flex;
+}
+
+.card .card-box {
+    height: 100px;
+    width: 100px;
+}
