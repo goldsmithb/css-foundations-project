@@ -75,9 +75,7 @@ div.flex-item {         /* does this always apply? */
 }
 
 header {
-    margin-top: -10px;
-    margin-bottom: -10px;
-    width: 100vw;
+    width: 100%;
     padding: 15px 15vw;
     display: flex;
     justify-content: space-between;
@@ -85,6 +83,7 @@ header {
     background-color: #1f2937;
     color: white;
 }
+
 header ul {
     padding: 0;
     list-style: none;
