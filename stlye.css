@@ -70,7 +70,6 @@ div.flex-item {         /* does this always apply? */
     margin: 0 auto;
 }
 
-
 .normal-text {
     color: rgba(223, 223, 223, 0.979);
 }
@@ -96,6 +95,10 @@ header ul {
 
 .card-container {
     display: flex;
+}
+
+.card .card-desc {
+    text-align: center;
 }
 
 .card .card-box {
