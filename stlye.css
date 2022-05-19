@@ -17,12 +17,10 @@ body {
 }
 
 .main {
-
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     flex: 1;
-
 
     border: 3px solid red;
 }
@@ -75,8 +73,8 @@ div.flex-item {         /* does this always apply? */
 }
 
 header {
-    width: 100%;
-    padding: 15px 15vw;
+    width: 100vw;
+    padding: 0 15vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
