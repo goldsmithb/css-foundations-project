@@ -65,13 +65,18 @@ div.flex-item {         /* does this always apply? */
     color: #f9faf8;
 }
 
+#info {
+    background-color: white;
+}
+
 #info h2 {
     width: 100%;
     text-align: center;
 }
 
 .normal-text {
-    color: rgba(223, 223, 223, 0.979);
+    color: rgba(162, 162, 162, 0.98);
+    font-weight: lighter;
 }
 
 header {
@@ -95,11 +100,12 @@ header ul {
 
 .card-container {
     display: flex;
-    gap: 20px;
+    justify-content: center;
+    gap: 5%;
 }
 
 .card {
-
+    max-width: 180px;
 }
 
 .card .card-desc {
