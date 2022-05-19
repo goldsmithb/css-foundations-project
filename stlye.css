@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Varela+Round&display=swap');
-/*
+@import url('https://fonts.googleapis.com/css2?family=Ramabhadra&family=Roboto:wght@700&family=Secular+One&family=Varela+Round&display=swap');/*
     font-family: 'Roboto', sans-serif;
+    font-family: 'Secular One', sans-serif;
     font-family: 'Varela Round', sans-serif;
 */
 * {
@@ -9,7 +8,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Ramabhadra', sans-serif;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -20,7 +19,7 @@ body {
 header {
     width: 100%;
     margin: 0;
-    padding: 0 10%;
+    padding: 0 15%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -40,13 +39,25 @@ a {
     text-decoration: none;
 }
 
+.normal-text {
+    color: rgba(162, 162, 162, 0.98);
+    font-weight: 400;
+}
+
+.by-line {
+    display: block;
+    color: #1f2937;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: right;
+}
+
 .main {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     flex: 1;
     width: 100%;
-    border: 3px solid red;
 }
 
 #intro,
@@ -57,7 +68,6 @@ a {
     width: 100%;
     padding: 3% 15%;
     margin: 0 auto;
-    border: 2px solid rgb(87, 4, 241);
 }
 
 #intro {
@@ -135,7 +145,11 @@ div.flex-item {         /* does this always apply? */
     object-fit: cover;
 }
 
-.normal-text {
-    color: rgba(162, 162, 162, 0.98);
-    font-weight: lighter;
+#quote {
+    color: #1f2937;
+    font-weight: 100;
+    font-size: 36px;
+    line-height: 1;
+    text-align: justify;
+    background-color: #e5e7eb;
 }
