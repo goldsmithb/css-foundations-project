@@ -67,7 +67,8 @@ div.flex-item {         /* does this always apply? */
 }
 
 #info h2 {
-    margin: 0 auto;
+    width: 100%;
+    text-align: center;
 }
 
 .normal-text {
