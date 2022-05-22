@@ -125,8 +125,10 @@ div.flex-item {         /* does this always apply? */
     display: inline-block;
 }
 
-#info {
+#info,
+#quote {
     background-color: white;
+    padding: 3% 20%;
 }
 
 #info h2 {
