@@ -42,6 +42,8 @@ footer {
     background-color: #1f2937;
     color: white;
     text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 a {
@@ -185,13 +187,23 @@ div.flex-item {         /* does this always apply? */
     justify-content: space-between;
     align-items: center;
     border-radius: 7px;
-    padding: 3% 7%;
+    padding: 6% 10%;
     background-color: #3882f6;
     color: white;
 }
 
 #call-to-action .button-sign-up {
     border: 2px solid white;
+}
+
+#call-to-action h3 {
+    margin: 0;
+}
+
+#call-to-action div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* daniel a */
