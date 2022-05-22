@@ -26,3 +26,5 @@ This was related to a larger question: should I wrap elements in <div>s when I m
 I was certain it should be allowed, but I had a feeling behavior would be different. This was something I had to be aware of when debugging as well: were the examples and solutions I was reading through appropriate for the problem I was having?
 I found that there were two ways to scale an image how I wanted: set the width and height to 100% of the container so that it scales as the container (a flex item) is resized, or set the image itself as a flex item with auto width and height and align-self set to non-stretch.
 https://stackoverflow.com/questions/54071620/why-does-wrapping-an-image-with-a-div-in-a-flexbox-scale-it-correctly-but-img-it
+
+Font problems: I can't find a font that behaves how I want. Until I do a tutorial on how to use fonts properly, I will just use sans-serif.

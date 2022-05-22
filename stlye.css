@@ -8,7 +8,7 @@
 }
 
 body {
-    font-family: 'Ramabhadra', sans-serif;
+    font-family: /*'Ramabhadra',*/ sans-serif; /* Font problems... see readme */
     margin: 0;
     display: flex;
     flex-direction: column;
