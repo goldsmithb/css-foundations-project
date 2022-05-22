@@ -54,6 +54,16 @@ a {
     font-weight: 400;
 }
 
+.button-sign-up {
+    color: white;
+    background-color: #3882f6;
+    border-radius: 4px;
+    border: 0;
+    padding: 6px 25px;
+    text-decoration: none;
+    text-align: center;
+}
+
 .by-line {
     display: block;
     color: #1f2937;
@@ -164,3 +174,23 @@ div.flex-item {         /* does this always apply? */
     text-align: justify;
     background-color: #e5e7eb;
 }
+
+#sign-in {
+    background-color: white;
+}
+
+#call-to-action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;
+    padding: 3% 7%;
+    background-color: #3882f6;
+    color: white;
+}
+
+#call-to-action .button-sign-up {
+    border: 2px solid white;
+}
+
+/* daniel a */
