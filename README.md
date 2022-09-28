@@ -14,7 +14,7 @@ Mario (info panel) : https://supermariorun.com/en/index.html
 Figaro (info) : https://www.google.com/url?sa=i&url=https%3A%2F%2Foperaspace.org%2Fopera%2Fthe-marriage-of-figaro%2F&psig=AOvVaw3-c2uuOZGrI3YV4JXij0py&ust=1652877180379000&source=images&cd=vfe&ved=0CA0QjhxqFwoTCPjkssHF5vcCFQAAAAAdAAAAABAl
 Hatsune Miku (info) : https://play.google.com/store/apps/details?id=com.sega.ColorfulStage.en&hl=en_GB&gl=US
 
-## Strugles and Outcomes
+## What I learned and Outcomes
 Resizing images dynamically while maintaining aspect rations:
 This was a problem I encountered a few times during the project, especially when working on the card images.
 I wanted the images and the descriptions to resize a little when the user resizes the window. The width should shrink to at most 100px and grow to a max of 180px.
